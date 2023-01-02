@@ -1,0 +1,30 @@
+<FrameLayout
+    android:id="@+id/widget_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="99dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_start"
+            android:layout_marginTop="0dp"
+            android:text="Close"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</FrameLayout>
