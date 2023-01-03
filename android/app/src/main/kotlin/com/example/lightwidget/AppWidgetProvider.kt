@@ -1,4 +1,4 @@
-package com.example.osram_remote
+package com.example.lightwidget
 
 import android.appwidget.AppWidgetManager
 import android.content.Context
