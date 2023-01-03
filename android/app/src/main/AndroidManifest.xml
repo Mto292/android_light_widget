@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.osram_remote">
+    package="com.example.lightwidget">
    <application
         android:label="Light Widget"
         android:name="${applicationName}"
@@ -25,7 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-       <receiver android:name="AppWidgetProvider"
+       <receiver android:name="com.example.lightwidget.AppWidgetProvider"
            android:exported="true">
            <intent-filter>
                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

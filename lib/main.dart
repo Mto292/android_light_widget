@@ -58,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
+@pragma("vm:entry-point")
 Future<void> backgroundCallback(Uri? uri) async {
   if (uri?.host == 'open') {
     openLight.call();

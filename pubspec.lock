@@ -70,10 +70,12 @@ packages:
   home_widget:
     dependency: "direct main"
     description:
-      name: home_widget
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.1.6"
+      path: "."
+      ref: "v0.2.0"
+      resolved-ref: "7743ccb8ad8f0438b8a7ec8ad05965a171994eec"
+      url: "https://github.com/ABausG/home_widget.git"
+    source: git
+    version: "0.2.0"
   lints:
     dependency: transitive
     description:
